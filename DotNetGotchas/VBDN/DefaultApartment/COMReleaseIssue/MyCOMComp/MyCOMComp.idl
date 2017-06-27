@@ -1,0 +1,50 @@
+// MyCOMComp.idl : IDL source for MyCOMComp
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (MyCOMComp.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(559FF8B9-1E4F-4226-9048-8E93717D55C6),
+	dual,
+	nonextensible,
+	helpstring("IMyComp2 Interface"),
+	pointer_default(unique)
+]
+interface IMyComp2 : IUnknown{
+	[id(1), helpstring("method Method2")] HRESULT Method2(void);
+};
+[
+	object,
+	uuid(91B083A0-81F3-44EF-88FB-AD1ADBF1865C),
+	dual,
+	nonextensible,
+	helpstring("IMyComp Interface"),
+	pointer_default(unique)
+]
+interface IMyComp : IDispatch{
+	[id(1), helpstring("method Method1")] HRESULT Method1(void);
+};
+
+[
+	uuid(F7A31496-AE82-48B7-BF51-15C92FD25B55),
+	version(1.0),
+	helpstring("MyCOMComp 1.0 Type Library")
+]
+library MyCOMCompLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(F943FD21-B157-4F14-AD74-A97751839D66),
+		helpstring("MyComp Class")
+	]
+	coclass MyComp
+	{
+		[default] interface IMyComp;
+		interface IMyComp2;
+	};
+};

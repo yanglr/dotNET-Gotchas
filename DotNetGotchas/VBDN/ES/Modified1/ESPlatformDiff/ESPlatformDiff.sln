@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ESLib", "ESLib\ESLib.vbproj", "{A2EA2304-8957-40A7-8E36-AB21A5A836AC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ESUser", "ESUser\ESUser.vbproj", "{9AA279C5-DE83-42EE-8FEA-BF9EB2D631D0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A2EA2304-8957-40A7-8E36-AB21A5A836AC}.Debug.ActiveCfg = Debug|.NET
+		{A2EA2304-8957-40A7-8E36-AB21A5A836AC}.Debug.Build.0 = Debug|.NET
+		{A2EA2304-8957-40A7-8E36-AB21A5A836AC}.Release.ActiveCfg = Release|.NET
+		{A2EA2304-8957-40A7-8E36-AB21A5A836AC}.Release.Build.0 = Release|.NET
+		{9AA279C5-DE83-42EE-8FEA-BF9EB2D631D0}.Debug.ActiveCfg = Debug|.NET
+		{9AA279C5-DE83-42EE-8FEA-BF9EB2D631D0}.Debug.Build.0 = Debug|.NET
+		{9AA279C5-DE83-42EE-8FEA-BF9EB2D631D0}.Release.ActiveCfg = Release|.NET
+		{9AA279C5-DE83-42EE-8FEA-BF9EB2D631D0}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

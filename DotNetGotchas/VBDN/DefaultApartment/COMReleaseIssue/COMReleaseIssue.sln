@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyCOMComp", "MyCOMComp\MyCOMComp.vcproj", "{351EA00B-61F4-413B-8D46-73F2E32709E7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyCOMCompPS", "MyCOMComp\MyCOMCompPS.vcproj", "{4DE6CF35-250F-410B-91D7-D4444EC8D946}"
+	ProjectSection(ProjectDependencies) = postProject
+		{351EA00B-61F4-413B-8D46-73F2E32709E7} = {351EA00B-61F4-413B-8D46-73F2E32709E7}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "COMCompUser", "COMCompUser\COMCompUser.vbproj", "{AD7C65E3-E568-42A2-9738-9338E1D57AD7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{351EA00B-61F4-413B-8D46-73F2E32709E7}.Debug.ActiveCfg = Debug|Win32
+		{351EA00B-61F4-413B-8D46-73F2E32709E7}.Debug.Build.0 = Debug|Win32
+		{351EA00B-61F4-413B-8D46-73F2E32709E7}.Release.ActiveCfg = Release|Win32
+		{351EA00B-61F4-413B-8D46-73F2E32709E7}.Release.Build.0 = Release|Win32
+		{4DE6CF35-250F-410B-91D7-D4444EC8D946}.Debug.ActiveCfg = Debug|Win32
+		{4DE6CF35-250F-410B-91D7-D4444EC8D946}.Release.ActiveCfg = Release|Win32
+		{AD7C65E3-E568-42A2-9738-9338E1D57AD7}.Debug.ActiveCfg = Debug|.NET
+		{AD7C65E3-E568-42A2-9738-9338E1D57AD7}.Debug.Build.0 = Debug|.NET
+		{AD7C65E3-E568-42A2-9738-9338E1D57AD7}.Release.ActiveCfg = Release|.NET
+		{AD7C65E3-E568-42A2-9738-9338E1D57AD7}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

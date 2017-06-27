@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWebApp", "http://localhost/MyWebApp/MyWebApp.csproj", "{F4C5D03D-B734-4AA9-8390-250BC1A6C57B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {AEF7E63C-4DA6-4FA3-BB45-A35E3DF075A0}
+		SccProjectUniqueName1 = http://localhost/MyWebApp/MyWebApp.csproj
+		SccProjectName1 = \u0022$/projects/CreatingWebApp/CreatingWebApp/MyWebApp\u0022,\u0020LBAAAAAA
+		SccLocalPath1 = MyWebApp
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice1 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F4C5D03D-B734-4AA9-8390-250BC1A6C57B}.Debug.ActiveCfg = Debug|.NET
+		{F4C5D03D-B734-4AA9-8390-250BC1A6C57B}.Debug.Build.0 = Debug|.NET
+		{F4C5D03D-B734-4AA9-8390-250BC1A6C57B}.Release.ActiveCfg = Release|.NET
+		{F4C5D03D-B734-4AA9-8390-250BC1A6C57B}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

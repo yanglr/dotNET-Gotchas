@@ -1,0 +1,18 @@
+// Created by Microsoft (R) C/C++ Compiler Version 13.10.3077 (32840157).
+//
+// c:\dotnetgotchas\csharp\code_43\comclient\debug\alib.tli
+//
+// Wrapper implementations for Win32 type library ..\\ALib\\bin\\Debug\\ALib.tlb
+// compiler-generated file created 08/16/04 at 11:11:23 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IMy wrapper method implementations
+//
+
+inline HRESULT IMy::Method1 ( ) {
+    HRESULT _hr = raw_Method1();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}

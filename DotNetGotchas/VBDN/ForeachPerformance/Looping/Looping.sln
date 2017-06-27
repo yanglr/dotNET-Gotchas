@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Looping", "Looping.vbproj", "{129871A1-DB2B-488E-9319-610B898CAE2D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{129871A1-DB2B-488E-9319-610B898CAE2D}.Debug.ActiveCfg = Debug|.NET
+		{129871A1-DB2B-488E-9319-610B898CAE2D}.Debug.Build.0 = Debug|.NET
+		{129871A1-DB2B-488E-9319-610B898CAE2D}.Release.ActiveCfg = Release|.NET
+		{129871A1-DB2B-488E-9319-610B898CAE2D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

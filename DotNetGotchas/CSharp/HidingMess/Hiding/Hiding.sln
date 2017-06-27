@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hiding", "Hiding.csproj", "{578A582A-7F55-4A9D-805E-D3B8415E4E05}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{578A582A-7F55-4A9D-805E-D3B8415E4E05}.Debug.ActiveCfg = Debug|.NET
+		{578A582A-7F55-4A9D-805E-D3B8415E4E05}.Debug.Build.0 = Debug|.NET
+		{578A582A-7F55-4A9D-805E-D3B8415E4E05}.Release.ActiveCfg = Release|.NET
+		{578A582A-7F55-4A9D-805E-D3B8415E4E05}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\ALib.MyComponent]
+@="ALib.MyComponent"
+
+[HKEY_CLASSES_ROOT\ALib.MyComponent\CLSID]
+@="{2C8D2213-28A1-3D5F-A4CA-E05784B59BA7}"
+
+[HKEY_CLASSES_ROOT\CLSID\{2C8D2213-28A1-3D5F-A4CA-E05784B59BA7}]
+@="ALib.MyComponent"
+
+[HKEY_CLASSES_ROOT\CLSID\{2C8D2213-28A1-3D5F-A4CA-E05784B59BA7}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ALib.MyComponent"
+"Assembly"="ALib, Version=1.0.1689.15458, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v1.1.4322"
+
+[HKEY_CLASSES_ROOT\CLSID\{2C8D2213-28A1-3D5F-A4CA-E05784B59BA7}\InprocServer32\1.0.1689.15458]
+"Class"="ALib.MyComponent"
+"Assembly"="ALib, Version=1.0.1689.15458, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v1.1.4322"
+
+[HKEY_CLASSES_ROOT\CLSID\{2C8D2213-28A1-3D5F-A4CA-E05784B59BA7}\ProgId]
+@="ALib.MyComponent"
+
+[HKEY_CLASSES_ROOT\CLSID\{2C8D2213-28A1-3D5F-A4CA-E05784B59BA7}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]

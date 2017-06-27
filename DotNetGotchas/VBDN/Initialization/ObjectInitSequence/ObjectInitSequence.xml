@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+<assembly>
+	<name>ObjectInitSequence</name>
+	<version>1.0.1684.28811</version>
+	<fullname>ObjectInitSequence, Version=1.0.1684.28811, Culture=Invariant Language (Invariant Country), PublicKeyToken=null</fullname>
+</assembly>
+<members>
+<member name="T:ObjectInitSequence.Base">
+ <summary>
+ Base class holds reference to
+ an object of SomeClass1.
+ </summary>
+</member>
+<member name="T:ObjectInitSequence.Derived">
+ <summary>
+ Derived class holds reference to
+ an object of SomeClass2 and derives from
+ Base.
+ </summary>
+</member>
+<member name="T:ObjectInitSequence.SomeClass1">
+ <summary>
+ Instance of this is held in Base.
+ </summary>
+</member>
+<member name="T:ObjectInitSequence.SomeClass2">
+ <summary>
+ Instance of this is held in Derived.
+ </summary>
+</member>
+
+</members>
+</doc>

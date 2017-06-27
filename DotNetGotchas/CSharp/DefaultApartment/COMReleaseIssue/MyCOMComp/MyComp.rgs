@@ -1,0 +1,27 @@
+HKCR
+{
+	MyCOMComp.MyComp.1 = s 'MyComp Class'
+	{
+		CLSID = s '{F943FD21-B157-4F14-AD74-A97751839D66}'
+	}
+	MyCOMComp.MyComp = s 'MyComp Class'
+	{
+		CLSID = s '{F943FD21-B157-4F14-AD74-A97751839D66}'
+		CurVer = s 'MyCOMComp.MyComp.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {F943FD21-B157-4F14-AD74-A97751839D66} = s 'MyComp Class'
+		{
+			ProgID = s 'MyCOMComp.MyComp.1'
+			VersionIndependentProgID = s 'MyCOMComp.MyComp'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{F7A31496-AE82-48B7-BF51-15C92FD25B55}'
+		}
+	}
+}

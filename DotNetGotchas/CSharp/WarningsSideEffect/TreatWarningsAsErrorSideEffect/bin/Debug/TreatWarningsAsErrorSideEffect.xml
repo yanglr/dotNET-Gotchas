@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TreatWarningsAsErrorSideEffect</name>
+    </assembly>
+    <members>
+        <member name="T:TreatWarningsAsErrorSideEffect.AService">
+            <summary>
+            Summary description for Class1.
+            </summary>
+        </member>
+        <member name="M:TreatWarningsAsErrorSideEffect.AService.method1">
+            <summary>
+            Documentation for method1
+            </summary>
+        </member>
+    </members>
+</doc>

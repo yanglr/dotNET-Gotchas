@@ -1,0 +1,64 @@
+// Created by Microsoft (R) C/C++ Compiler Version 13.10.3077 (32840157).
+//
+// c:\dotnetgotchas\csharp\code_43\comclient\debug\alib.tlh
+//
+// C++ source equivalent of Win32 type library ..\\ALib\\bin\\Debug\\ALib.tlb
+// compiler-generated file created 08/16/04 at 11:11:23 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace ALib {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("3823d71a-d623-3c02-8740-b9ee92849cc1"))
+/* LIBID */ __ALib;
+struct __declspec(uuid("74555c62-75cd-4c87-940a-4ae8a69ffcb2"))
+/* dual interface */ IMy;
+struct /* coclass */ MyComponent;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IMy, __uuidof(IMy));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("74555c62-75cd-4c87-940a-4ae8a69ffcb2"))
+IMy : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT Method1 ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Method1 ( ) = 0;
+};
+
+struct __declspec(uuid("53def193-d7a4-4ce3-938e-a7a35b5f7ab7"))
+MyComponent;
+    // interface _Object
+    // [ default ] interface IMy
+
+//
+// Wrapper method implementations
+//
+
+#include "c:\dotnetgotchas\csharp\code_43\comclient\debug\alib.tli"
+
+} // namespace ALib
+
+#pragma pack(pop)

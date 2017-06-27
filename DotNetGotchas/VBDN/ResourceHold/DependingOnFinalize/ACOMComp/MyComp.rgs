@@ -1,0 +1,24 @@
+HKCR
+{
+	ACOMComp.MyComp.1 = s 'MyComp Class'
+	{
+		CLSID = s '{E4EB3427-1E60-4EEC-9C6F-3A82F707DE13}'
+	}
+	ACOMComp.MyComp = s 'MyComp Class'
+	{
+		CLSID = s '{E4EB3427-1E60-4EEC-9C6F-3A82F707DE13}'
+		CurVer = s 'ACOMComp.MyComp.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {E4EB3427-1E60-4EEC-9C6F-3A82F707DE13} = s 'MyComp Class'
+		{
+			ProgID = s 'ACOMComp.MyComp.1'
+			VersionIndependentProgID = s 'ACOMComp.MyComp'
+			ForceRemove 'Programmable'
+			LocalServer32 = s '%MODULE%'
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{06B486A8-F271-4932-A9BE-F2E12E011A7D}'
+		}
+	}
+}

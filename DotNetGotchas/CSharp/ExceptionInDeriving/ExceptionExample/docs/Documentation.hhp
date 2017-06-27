@@ -1,0 +1,29 @@
+[FILES]
+ExceptionExample.html
+ExceptionExample.Base.html
+ExceptionExample.BaseMembers.html
+ExceptionExample.BaseConstructor.html
+ExceptionExample.BaseMethods.html
+ExceptionExample.Base.Method1.html
+ExceptionExample.InvalidInputException.html
+ExceptionExample.InvalidInputExceptionMembers.html
+ExceptionExample.InvalidInputExceptionConstructor.html
+
+[OPTIONS]
+Title=Documentation
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=Documentation.chm
+Default Window=MsdnHelp
+Default topic=ExceptionExample.html
+Display compile progress=No
+Error log file=Documentation.log
+Full-text search=Yes
+Index file=Documentation.hhk
+Language=0x409 English (United States)
+Contents file=Documentation.hhc
+
+[WINDOWS]
+MsdnHelp="Documentation Help","Documentation.hhc","Documentation.hhk","ExceptionExample.html","ExceptionExample.html",,,,,0x62520,220,0x387e,[86,51,872,558],,,,,,,0
+
+[INFOTYPES]

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://www.ACSWSForMultiRequest.com" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://www.ACSWSForMultiRequest.com" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.ACSWSForMultiRequest.com">
+      <s:element name="Method1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="val" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Method1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Method1Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="Method1SoapIn">
+    <part name="parameters" element="s0:Method1" />
+  </message>
+  <message name="Method1SoapOut">
+    <part name="parameters" element="s0:Method1Response" />
+  </message>
+  <portType name="MyServiceSoap">
+    <operation name="Method1">
+      <input message="s0:Method1SoapIn" />
+      <output message="s0:Method1SoapOut" />
+    </operation>
+  </portType>
+  <binding name="MyServiceSoap" type="s0:MyServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="Method1">
+      <soap:operation soapAction="http://www.ACSWSForMultiRequest.com/Method1" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="MyService">
+    <port name="MyServiceSoap" binding="s0:MyServiceSoap">
+      <soap:address location="http://localhost/ACSWSForMultiRequest/MyService.asmx" />
+    </port>
+  </service>
+</definitions>

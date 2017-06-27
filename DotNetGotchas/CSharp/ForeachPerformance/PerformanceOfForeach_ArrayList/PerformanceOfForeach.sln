@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceOfForeach", "PerformanceOfForeach.csproj", "{B22FF303-E728-4F94-9557-69887D69E186}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B22FF303-E728-4F94-9557-69887D69E186}.Debug.ActiveCfg = Debug|.NET
+		{B22FF303-E728-4F94-9557-69887D69E186}.Debug.Build.0 = Debug|.NET
+		{B22FF303-E728-4F94-9557-69887D69E186}.Release.ActiveCfg = Release|.NET
+		{B22FF303-E728-4F94-9557-69887D69E186}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

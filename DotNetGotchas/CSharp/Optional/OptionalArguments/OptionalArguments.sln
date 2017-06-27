@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AVBDNLibrary", "AVBDNLibrary\AVBDNLibrary.vbproj", "{A58A5602-0EE8-4AA9-A17F-B4E132AF94DE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLib", "CSLib\CSLib.csproj", "{A5E577C1-B1BC-4155-B13F-32B4352717BE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AVBDNLibrary2", "AVBDNLibrary2\AVBDNLibrary2.vbproj", "{98FC2106-8238-4BE5-B178-6C2E6673E873}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSUser", "CSUser\CSUser.csproj", "{186DC43E-CB71-4329-84CC-A365B83B5766}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A58A5602-0EE8-4AA9-A17F-B4E132AF94DE}.Debug.ActiveCfg = Debug|.NET
+		{A58A5602-0EE8-4AA9-A17F-B4E132AF94DE}.Debug.Build.0 = Debug|.NET
+		{A58A5602-0EE8-4AA9-A17F-B4E132AF94DE}.Release.ActiveCfg = Release|.NET
+		{A58A5602-0EE8-4AA9-A17F-B4E132AF94DE}.Release.Build.0 = Release|.NET
+		{A5E577C1-B1BC-4155-B13F-32B4352717BE}.Debug.ActiveCfg = Debug|.NET
+		{A5E577C1-B1BC-4155-B13F-32B4352717BE}.Debug.Build.0 = Debug|.NET
+		{A5E577C1-B1BC-4155-B13F-32B4352717BE}.Release.ActiveCfg = Release|.NET
+		{A5E577C1-B1BC-4155-B13F-32B4352717BE}.Release.Build.0 = Release|.NET
+		{98FC2106-8238-4BE5-B178-6C2E6673E873}.Debug.ActiveCfg = Debug|.NET
+		{98FC2106-8238-4BE5-B178-6C2E6673E873}.Debug.Build.0 = Debug|.NET
+		{98FC2106-8238-4BE5-B178-6C2E6673E873}.Release.ActiveCfg = Release|.NET
+		{98FC2106-8238-4BE5-B178-6C2E6673E873}.Release.Build.0 = Release|.NET
+		{186DC43E-CB71-4329-84CC-A365B83B5766}.Debug.ActiveCfg = Debug|.NET
+		{186DC43E-CB71-4329-84CC-A365B83B5766}.Debug.Build.0 = Debug|.NET
+		{186DC43E-CB71-4329-84CC-A365B83B5766}.Release.ActiveCfg = Release|.NET
+		{186DC43E-CB71-4329-84CC-A365B83B5766}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

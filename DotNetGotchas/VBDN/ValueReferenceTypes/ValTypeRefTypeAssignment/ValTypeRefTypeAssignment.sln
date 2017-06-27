@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ValTypeRefTypeAssignment", "ValTypeRefTypeAssignment.vbproj", "{B60E1EE0-F389-423E-85CF-FB23783D0D7D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B60E1EE0-F389-423E-85CF-FB23783D0D7D}.Debug.ActiveCfg = Debug|.NET
+		{B60E1EE0-F389-423E-85CF-FB23783D0D7D}.Debug.Build.0 = Debug|.NET
+		{B60E1EE0-F389-423E-85CF-FB23783D0D7D}.Release.ActiveCfg = Release|.NET
+		{B60E1EE0-F389-423E-85CF-FB23783D0D7D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

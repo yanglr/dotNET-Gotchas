@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ALib", "ALib\ALib.vbproj", "{85DA0F45-DDDC-4351-B17B-C93823B7E53B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TestApp", "TestApp\TestApp.vbproj", "{37EEAD90-9D23-4163-9892-4B1F370FD2BC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{85DA0F45-DDDC-4351-B17B-C93823B7E53B}.Debug.ActiveCfg = Debug|.NET
+		{85DA0F45-DDDC-4351-B17B-C93823B7E53B}.Debug.Build.0 = Debug|.NET
+		{85DA0F45-DDDC-4351-B17B-C93823B7E53B}.Release.ActiveCfg = Release|.NET
+		{85DA0F45-DDDC-4351-B17B-C93823B7E53B}.Release.Build.0 = Release|.NET
+		{37EEAD90-9D23-4163-9892-4B1F370FD2BC}.Debug.ActiveCfg = Debug|.NET
+		{37EEAD90-9D23-4163-9892-4B1F370FD2BC}.Debug.Build.0 = Debug|.NET
+		{37EEAD90-9D23-4163-9892-4B1F370FD2BC}.Release.ActiveCfg = Release|.NET
+		{37EEAD90-9D23-4163-9892-4B1F370FD2BC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

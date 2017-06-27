@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!-- Scripting Component eBankAccount.wsc -->
+<!-- This is a strip down from a component
+ that does more serious work accessing a database.
+ I have cut it down to bare minimum.
+-->
+<component>
+
+<?component error="true" debug="true"?>
+
+<registration
+	description="eBankAccount"
+	progid="eBank.Account"
+	version="1.00"
+	classid="{7607496c-bfae-4200-9ffb-14c04a93d009}"
+>
+</registration>
+
+<public>
+	<property name="balance">
+		<get/>
+	</property>
+	<method name="deposit">
+		<PARAMETER name="purpose"/>
+		<PARAMETER name="amount"/>
+	</method>
+	<method name="withdraw">
+		<PARAMETER name="purpose"/>
+		<PARAMETER name="amount"/>
+	</method>
+</public>
+
+<implements type="ASP" id="ASP"/>
+
+<script language="VBScript">
+<![CDATA[
+OPTION EXPLICIT
+
+dim accountNumber
+dim balance
+
+balance = 0
+
+
+function get_balance()
+	get_balance = balance
+end function
+
+function deposit(purpose, amount)
+	balance = balance + amount
+end function 
+
+function withdraw(purpose, amount)
+	balance = balance - amount
+end function 
+
+]]>
+</script>
+
+</component>

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ThreadPool", "ThreadPool.vbproj", "{072AA1BC-5952-4304-9A76-1F4301C9A592}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{072AA1BC-5952-4304-9A76-1F4301C9A592}.Debug.ActiveCfg = Debug|.NET
+		{072AA1BC-5952-4304-9A76-1F4301C9A592}.Debug.Build.0 = Debug|.NET
+		{072AA1BC-5952-4304-9A76-1F4301C9A592}.Release.ActiveCfg = Release|.NET
+		{072AA1BC-5952-4304-9A76-1F4301C9A592}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

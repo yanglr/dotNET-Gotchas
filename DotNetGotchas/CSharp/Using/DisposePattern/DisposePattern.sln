@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisposePattern", "DisposePattern.csproj", "{FD2FD103-1BF7-48AF-9591-D80E11FB39A3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FD2FD103-1BF7-48AF-9591-D80E11FB39A3}.Debug.ActiveCfg = Debug|.NET
+		{FD2FD103-1BF7-48AF-9591-D80E11FB39A3}.Debug.Build.0 = Debug|.NET
+		{FD2FD103-1BF7-48AF-9591-D80E11FB39A3}.Release.ActiveCfg = Release|.NET
+		{FD2FD103-1BF7-48AF-9591-D80E11FB39A3}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?>
+<UpgradeLog>
+<Properties><Property Name="Solution" Value="ArrayListClassCastException">
+</Property><Property Name="Solution File" Value="C:\temp\Generics\VB\ArrayList\Modified1\ArrayListClassCastException\ArrayListClassCastException.sln">
+</Property><Property Name="Date" Value="Wednesday, January 05, 2005">
+</Property><Property Name="Time" Value="13:28 PM">
+</Property></Properties><Event ErrorLevel="0" Project="ArrayListClassCastException" Source="ArrayListClassCastException.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ArrayListClassCastException" Source="ArrayListClassCastException.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ArrayListClassCastException.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ArrayListClassCastException.sln" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACSWebService", "http://localhost/ACSWebService/ACSWebService.csproj", "{ED5FCEDE-545C-4960-9C43-86960DEE8CFF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWSClient", "AWSClient\AWSClient.csproj", "{106A427B-D3DC-456E-866C-AE552F2BC85A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{ED5FCEDE-545C-4960-9C43-86960DEE8CFF}.Debug.ActiveCfg = Debug|.NET
+		{ED5FCEDE-545C-4960-9C43-86960DEE8CFF}.Debug.Build.0 = Debug|.NET
+		{ED5FCEDE-545C-4960-9C43-86960DEE8CFF}.Release.ActiveCfg = Release|.NET
+		{ED5FCEDE-545C-4960-9C43-86960DEE8CFF}.Release.Build.0 = Release|.NET
+		{106A427B-D3DC-456E-866C-AE552F2BC85A}.Debug.ActiveCfg = Debug|.NET
+		{106A427B-D3DC-456E-866C-AE552F2BC85A}.Debug.Build.0 = Debug|.NET
+		{106A427B-D3DC-456E-866C-AE552F2BC85A}.Release.ActiveCfg = Release|.NET
+		{106A427B-D3DC-456E-866C-AE552F2BC85A}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

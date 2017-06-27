@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterateOver", "IterateOver\IterateOver.csproj", "{C8F08233-FB60-40DA-BA82-98CA5734854E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IterateOverPort", "IterateOverPort\IterateOverPort.vbproj", "{CBC46FE4-7F86-48C4-A8B8-85651837A530}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C8F08233-FB60-40DA-BA82-98CA5734854E}.Debug.ActiveCfg = Debug|.NET
+		{C8F08233-FB60-40DA-BA82-98CA5734854E}.Debug.Build.0 = Debug|.NET
+		{C8F08233-FB60-40DA-BA82-98CA5734854E}.Release.ActiveCfg = Release|.NET
+		{C8F08233-FB60-40DA-BA82-98CA5734854E}.Release.Build.0 = Release|.NET
+		{CBC46FE4-7F86-48C4-A8B8-85651837A530}.Debug.ActiveCfg = Debug|.NET
+		{CBC46FE4-7F86-48C4-A8B8-85651837A530}.Debug.Build.0 = Debug|.NET
+		{CBC46FE4-7F86-48C4-A8B8-85651837A530}.Release.ActiveCfg = Release|.NET
+		{CBC46FE4-7F86-48C4-A8B8-85651837A530}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

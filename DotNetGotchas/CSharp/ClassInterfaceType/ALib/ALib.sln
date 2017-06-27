@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALib", "ALib.csproj", "{0E2B5995-627B-4D1F-8D8A-4762B26640AE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "COMClient", "..\COMClient\COMClient.vcproj", "{BD0981D7-1F4A-45F2-B2C7-910EDA920895}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0E2B5995-627B-4D1F-8D8A-4762B26640AE}.Debug.ActiveCfg = Debug|.NET
+		{0E2B5995-627B-4D1F-8D8A-4762B26640AE}.Debug.Build.0 = Debug|.NET
+		{0E2B5995-627B-4D1F-8D8A-4762B26640AE}.Release.ActiveCfg = Release|.NET
+		{0E2B5995-627B-4D1F-8D8A-4762B26640AE}.Release.Build.0 = Release|.NET
+		{BD0981D7-1F4A-45F2-B2C7-910EDA920895}.Debug.ActiveCfg = Debug|Win32
+		{BD0981D7-1F4A-45F2-B2C7-910EDA920895}.Debug.Build.0 = Debug|Win32
+		{BD0981D7-1F4A-45F2-B2C7-910EDA920895}.Release.ActiveCfg = Release|Win32
+		{BD0981D7-1F4A-45F2-B2C7-910EDA920895}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

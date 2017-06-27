@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLib", "CSLib\CSLib.csproj", "{D45E7FA3-4B1D-4D6D-B492-9893DA9FC54C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBLib", "VBLib\VBLib.vbproj", "{5FF9C5A0-6638-4F05-80CC-A414B9D9332F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBUser", "VBUser\VBUser.vbproj", "{1CDE3633-DD68-4624-BBB1-3C2E6B348A53}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D45E7FA3-4B1D-4D6D-B492-9893DA9FC54C}.Debug.ActiveCfg = Debug|.NET
+		{D45E7FA3-4B1D-4D6D-B492-9893DA9FC54C}.Debug.Build.0 = Debug|.NET
+		{D45E7FA3-4B1D-4D6D-B492-9893DA9FC54C}.Release.ActiveCfg = Release|.NET
+		{D45E7FA3-4B1D-4D6D-B492-9893DA9FC54C}.Release.Build.0 = Release|.NET
+		{5FF9C5A0-6638-4F05-80CC-A414B9D9332F}.Debug.ActiveCfg = Debug|.NET
+		{5FF9C5A0-6638-4F05-80CC-A414B9D9332F}.Debug.Build.0 = Debug|.NET
+		{5FF9C5A0-6638-4F05-80CC-A414B9D9332F}.Release.ActiveCfg = Release|.NET
+		{5FF9C5A0-6638-4F05-80CC-A414B9D9332F}.Release.Build.0 = Release|.NET
+		{1CDE3633-DD68-4624-BBB1-3C2E6B348A53}.Debug.ActiveCfg = Debug|.NET
+		{1CDE3633-DD68-4624-BBB1-3C2E6B348A53}.Debug.Build.0 = Debug|.NET
+		{1CDE3633-DD68-4624-BBB1-3C2E6B348A53}.Release.ActiveCfg = Release|.NET
+		{1CDE3633-DD68-4624-BBB1-3C2E6B348A53}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringAppendPerformance", "StringAppendPerformance.csproj", "{348FE208-0F2A-41D0-A08B-5ECDD3B10A1C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{348FE208-0F2A-41D0-A08B-5ECDD3B10A1C}.Debug.ActiveCfg = Debug|.NET
+		{348FE208-0F2A-41D0-A08B-5ECDD3B10A1C}.Debug.Build.0 = Debug|.NET
+		{348FE208-0F2A-41D0-A08B-5ECDD3B10A1C}.Release.ActiveCfg = Release|.NET
+		{348FE208-0F2A-41D0-A08B-5ECDD3B10A1C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

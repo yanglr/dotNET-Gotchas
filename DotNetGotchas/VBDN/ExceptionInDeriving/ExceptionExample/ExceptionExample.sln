@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ExceptionExample", "ExceptionExample.vbproj", "{4F6E20DC-81D4-45F8-A296-B3A81F6F9064}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4F6E20DC-81D4-45F8-A296-B3A81F6F9064}.Debug.ActiveCfg = Debug|.NET
+		{4F6E20DC-81D4-45F8-A296-B3A81F6F9064}.Debug.Build.0 = Debug|.NET
+		{4F6E20DC-81D4-45F8-A296-B3A81F6F9064}.Release.ActiveCfg = Release|.NET
+		{4F6E20DC-81D4-45F8-A296-B3A81F6F9064}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResetAbort", "ResetAbort.csproj", "{68104982-9154-42E6-ADEA-8662A797AA42}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{68104982-9154-42E6-ADEA-8662A797AA42}.Debug.ActiveCfg = Debug|.NET
+		{68104982-9154-42E6-ADEA-8662A797AA42}.Debug.Build.0 = Debug|.NET
+		{68104982-9154-42E6-ADEA-8662A797AA42}.Release.ActiveCfg = Release|.NET
+		{68104982-9154-42E6-ADEA-8662A797AA42}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchronizeWithIntent", "SynchronizeWithIntent.csproj", "{3C48A436-AB5F-4FBB-AB3C-1564DDDB0330}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3C48A436-AB5F-4FBB-AB3C-1564DDDB0330}.Debug.ActiveCfg = Debug|.NET
+		{3C48A436-AB5F-4FBB-AB3C-1564DDDB0330}.Debug.Build.0 = Debug|.NET
+		{3C48A436-AB5F-4FBB-AB3C-1564DDDB0330}.Release.ActiveCfg = Release|.NET
+		{3C48A436-AB5F-4FBB-AB3C-1564DDDB0330}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

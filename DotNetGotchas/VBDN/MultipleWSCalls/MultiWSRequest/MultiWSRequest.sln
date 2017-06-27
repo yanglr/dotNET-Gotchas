@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AClient", "AClient\AClient.vbproj", "{557A7C80-1DA3-4B06-B158-FD69607A5076}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AVBWSForMultiRequest", "http://localhost/AVBWSForMultiRequest/AVBWSForMultiRequest.vbproj", "{4E512F75-875E-41D4-9763-62BF50282BB4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{557A7C80-1DA3-4B06-B158-FD69607A5076}.Debug.ActiveCfg = Debug|.NET
+		{557A7C80-1DA3-4B06-B158-FD69607A5076}.Debug.Build.0 = Debug|.NET
+		{557A7C80-1DA3-4B06-B158-FD69607A5076}.Release.ActiveCfg = Release|.NET
+		{557A7C80-1DA3-4B06-B158-FD69607A5076}.Release.Build.0 = Release|.NET
+		{4E512F75-875E-41D4-9763-62BF50282BB4}.Debug.ActiveCfg = Debug|.NET
+		{4E512F75-875E-41D4-9763-62BF50282BB4}.Debug.Build.0 = Debug|.NET
+		{4E512F75-875E-41D4-9763-62BF50282BB4}.Release.ActiveCfg = Release|.NET
+		{4E512F75-875E-41D4-9763-62BF50282BB4}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

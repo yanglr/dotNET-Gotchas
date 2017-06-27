@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ALibrary", "ALibrary\ALibrary.vbproj", "{B29EDB29-0F88-4464-836E-1F2DC38A58B9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UnhandledExceptionConsoleApp", "UnhandledExceptionConsoleApp\UnhandledExceptionConsoleApp.vbproj", "{FC36DC1B-3146-45B5-9A8E-591726BD5557}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UnhandledExceptionGUI", "UnhandledExceptionGUI\UnhandledExceptionGUI.vbproj", "{9EA72CE1-DA32-4A86-84C5-9E43757222E5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B29EDB29-0F88-4464-836E-1F2DC38A58B9}.Debug.ActiveCfg = Debug|.NET
+		{B29EDB29-0F88-4464-836E-1F2DC38A58B9}.Debug.Build.0 = Debug|.NET
+		{B29EDB29-0F88-4464-836E-1F2DC38A58B9}.Release.ActiveCfg = Release|.NET
+		{B29EDB29-0F88-4464-836E-1F2DC38A58B9}.Release.Build.0 = Release|.NET
+		{FC36DC1B-3146-45B5-9A8E-591726BD5557}.Debug.ActiveCfg = Debug|.NET
+		{FC36DC1B-3146-45B5-9A8E-591726BD5557}.Debug.Build.0 = Debug|.NET
+		{FC36DC1B-3146-45B5-9A8E-591726BD5557}.Release.ActiveCfg = Release|.NET
+		{FC36DC1B-3146-45B5-9A8E-591726BD5557}.Release.Build.0 = Release|.NET
+		{9EA72CE1-DA32-4A86-84C5-9E43757222E5}.Debug.ActiveCfg = Debug|.NET
+		{9EA72CE1-DA32-4A86-84C5-9E43757222E5}.Debug.Build.0 = Debug|.NET
+		{9EA72CE1-DA32-4A86-84C5-9E43757222E5}.Release.ActiveCfg = Release|.NET
+		{9EA72CE1-DA32-4A86-84C5-9E43757222E5}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

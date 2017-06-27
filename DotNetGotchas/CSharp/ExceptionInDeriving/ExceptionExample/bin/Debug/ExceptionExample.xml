@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExceptionExample</name>
+    </assembly>
+    <members>
+        <member name="T:ExceptionExample.Base">
+            <summary>
+            A class to illustrate Excetion in Inheritance
+            </summary>
+        </member>
+        <member name="M:ExceptionExample.Base.Method1(System.Int32)">
+            <summary>
+            Method1 does some thing on input given.
+            </summary>
+            <param name="val">Input to work on</param>
+            <exception cref="T:ExceptionExample.InvalidInputException">
+            Thrown if parameter is less than 0.
+            </exception>
+        </member>
+        <member name="T:ExceptionExample.Derived">
+            <summary>
+            A Derived class that violates LSP.
+            </summary>
+        </member>
+        <member name="M:ExceptionExample.Derived.Method1(System.Int32)">
+            <summary>
+            Method1 does something with input
+            </summary>
+            <param name="val">val to work with</param>
+            <exception cref="T:ExceptionExample.InvalidInputException">
+            thrown if parameter is 0
+            </exception>
+            <exception cref="T:ExceptionExample.InputMustBeEvenException">
+            thrown if parameter is not even
+            </exception>
+        </member>
+        <member name="T:ExceptionExample.InputMustBeEvenException">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ExceptionExample.InvalidInputException">
+            <summary>
+            Indicates an invalid input
+            </summary>
+        </member>
+    </members>
+</doc>
